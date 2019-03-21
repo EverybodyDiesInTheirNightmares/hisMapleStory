@@ -11,7 +11,7 @@ I'm now in my sophomore year,and until now i don't even hava a project that can 
 
 >In the game, players travel the "Maple World", defeating monsters and developing their characters' skills and abilities as is typical in role-playing games. Players can interact with others in many ways, including chatting and trading. Groups of players can band together in parties to hunt monsters and share rewards, and can also form guilds to interact more easily with each other. Players additionally have the option to visit the in-game "Cash Shop" to purchase a variety of character appearances or gameplay enhancements with real money.——Wikipedia
 
-&emsp;Actually im not a hardcore gamer of MapleStory,when i was in primary school,this was my favorite shool.And then i quited from it for several years.One day when i was choosing a new domain,i though about "maple",then "maplestory",in the end "hisMapleStory".
+&emsp;Actually im not a hardcore gamer of MapleStory,when i was in primary school,Maplestory was my favorite game.And then i quited from it for several years.One day when i was choosing a new domain,i thought about "maple",then "maplestory",in the end "hisMapleStory".
 
 
 ## Essence
