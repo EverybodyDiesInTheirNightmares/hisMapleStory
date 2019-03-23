@@ -26,6 +26,7 @@ Database:Mysql
 Cache:Redis  
 Project management:Maven  
 IDE:IntelliJ IDEA  
+Temporary Server:Sakura Frp
 ...**
 
 ## TODO(in Readme)
