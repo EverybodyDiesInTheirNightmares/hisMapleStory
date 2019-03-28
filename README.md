@@ -34,7 +34,7 @@ Temporary Server:Sakura Frp
 - [ ] Database table structure
 - [ ] ... ...
 
-I'm still raving 2333,okay
+I'm still raving 23333,okay
 # talk is cheap,show you my code.
 *i wish this hisMapleStory will be available no later than my junior year.*
 *lol*
