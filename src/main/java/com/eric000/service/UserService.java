@@ -1,7 +1,7 @@
 package com.eric000.service;
 
 import com.eric000.domain.User;
-import net.sf.json.JSONObject;
+import org.json.JSONObject;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -11,7 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
  */
 public interface UserService {
     /**
-     *  通过手机号查找注册用户
+     * 通过手机号查找注册用户
+     *
      * @param phone 手机号
      * @return 用户
      */
@@ -19,6 +20,7 @@ public interface UserService {
 
     /**
      * 通过id查找用户名
+     *
      * @param id
      * @return
      */
@@ -26,6 +28,7 @@ public interface UserService {
 
     /**
      * 注册用户
+     *
      * @param user 用户
      * @return "1"--用户存在，插入失败             "2"--用户不存在，插入成功
      */
@@ -34,6 +37,7 @@ public interface UserService {
 
     /**
      * 通过手机号查找用户id
+     *
      * @param phone 手机号
      * @return 用户id
      */
@@ -41,13 +45,15 @@ public interface UserService {
 
     /**
      * 通过手机号修改密码
-     * @param phone 手机号
+     *
+     * @param phone    手机号
      * @param password 密码
      */
     void updatePasswordByPhone(String phone, String password);
 
     /**
      * 通过用户名获得手机号
+     *
      * @param username 用户名
      * @return 手机号
      */
@@ -55,6 +61,7 @@ public interface UserService {
 
     /**
      * 通过用户名查找id
+     *
      * @param username
      * @return
      */
@@ -62,6 +69,7 @@ public interface UserService {
 
     /**
      * 通过手机号查找用户名
+     *
      * @param phone 手机号
      * @return 用户名
      */
@@ -69,13 +77,15 @@ public interface UserService {
 
     /**
      * 更新最近登录时间
-     * @param username 用户名
+     *
+     * @param username       用户名
      * @param recentlyLanded 最近登录时间
      */
     void updateRecentlyLanded(String username, String recentlyLanded);
 
     /**
      * 判断用户名是否存在
+     *
      * @param username 用户名
      * @return true--存在  false--不存在
      */
@@ -83,6 +93,7 @@ public interface UserService {
 
     /**
      * 通过手机号判断是否为超级用户
+     *
      * @param phone 手机号
      * @return true--超级管理员  false--非超级管理员
      */
@@ -90,6 +101,7 @@ public interface UserService {
 
     /**
      * 更改头像
+     *
      * @param avatarImgUrl 头像地址
      */
     @Transactional
@@ -97,6 +109,7 @@ public interface UserService {
 
     /**
      * 获得头像url
+     *
      * @param username
      * @return
      */
@@ -104,13 +117,15 @@ public interface UserService {
 
     /**
      * 获得用户个人信息
+     *
      * @return
      */
     JSONObject getUserPersonalInfoByUsername(String username);
 
     /**
      * 保存用户个人信息
-     * @param user 个人信息
+     *
+     * @param user     个人信息
      * @param username 当前更改的用户
      * @return
      */
@@ -118,12 +133,14 @@ public interface UserService {
 
     /**
      * 获得用户头像的地址
+     *
      * @return 头像的url
      */
     String getHeadPortraitUrlByUserId(int userId);
 
     /**
      * 统计总用户量
+     *
      * @return
      */
     int countUserNum();
